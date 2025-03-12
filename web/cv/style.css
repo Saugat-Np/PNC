@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+main{
+    margin: 20px 30px;
+    border: 2px solid rgb(27, 26, 26);
+    border-radius: 15px;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, rgb(78, 69, 255),rgb(48, 148, 255));
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+.profile_pic{
+    border-radius: 50%;
+    border: 1px solid blue;
+    border-color: golden;
+    cursor: pointer;
+
+}
+.profile_pic:hover{
+    border-radius: 50%;
+    border: 1px solid gold;
+    border-color: golden;
+    box-shadow: 0px 0px 20px 7px gold;
+
+
+}
+.name{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 90px;
+    letter-spacing: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.name:hover{
+     
+}
+@media  (max-width:840px) {
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background: linear-gradient(to right, rgb(78, 69, 255),rgb(48, 148, 255));
+        padding: 5px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .bottom{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+}
+.bottom{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+}
+.flex {
+    display: flex;
+    gap: 10px;
+    padding: 3px;
+    align-items: center;
+}
+.heading{
+    background-color: rgb(54, 64, 121);
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.heading:hover{
+    background-color: rgb(106, 106, 219);
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+}
+
+.flex img{
+    background-color: rgba(65, 29, 223, 0.829);
+    padding: 2px;
+    border-radius: 10px;
+}
+.contact{
+    background-color: rgba(61, 55, 89, 0.364);
+    word-wrap: break-word;
+    padding: 10px;
+    margin: 6px;
+    border: 1px solid rgb(164, 148, 148) ;
+}
+.contact:hover{
+    background-color: rgba(0, 0, 0, 0.062);
+    word-wrap: break-word;
+    padding: 10px;
+    margin: 6px;
+    border: 1px solid rgb(164, 148, 148) ;
+
+}
+
+.contact #website,#gmail,#num{
+    word-break: break-all;
+}
+.right{
+    width: 100%;
+    height: auto;
+}
+li{
+    list-style: none;
+}
+table{
+    border: 1px solid  rgb(164, 148, 148) ;
+    padding: 8px;
+    margin: 3% 10%;
+    align-items: center;
+    width: 80%;
+}
+th,td{
+    border: 1px solid white;
+    padding: 4px;
+    border-collapse: collapse;
+    text-align: center;
+    word-break: break-all;
+}
